@@ -33,8 +33,17 @@
         <label for="age">Input your age (years):</label><br>
         <input type="number" id="age" name="age"><br><br>
 
+        <label for="referral">How did you hear about us?</label><br>
+        <select id="referral" name="referral">
+            <option value="">(select one)</option>
+            <option value="social-media">Social Media</option>
+            <option value="friends">Friends</option>
+            <option value="advertisement">Advertisement</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
         <label for="bio">Provide a bio:</label><br>
-        <textarea id="bio" name="bio" rows="4" cols="50">write about yourself</textarea><br><br>
+        <textarea id="bio" name="bio" rows="4" cols="50">I like coding with my bro</textarea><br><br>
 
         <input type="checkbox" id="terms" name="terms">
         <label for="terms">I accept the <a href="#">terms and conditions</a></label><br><br>
